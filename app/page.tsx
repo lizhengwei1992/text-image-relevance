@@ -25,7 +25,7 @@ interface AnalysisData {
   auto_label: {
     "Query分析"?: string;
     "相关性判断理由"?: string;
-    relevance?: string | boolean;
+    relevance?: boolean;
   };
 }
 
